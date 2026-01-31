@@ -20,6 +20,7 @@ modules:
         - pgdev/ghostty
         - peterwu/rendezvous
         - ublue-os/packages
+        - monkeygold/nautilus-open-any-terminal
       files:
         - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
         - https://mise.jdx.dev/rpm/mise.repo
@@ -59,6 +60,8 @@ modules:
         - tailscale
 
         - bazaar
+
+        - nautilus-open-any-terminal
 
         # cursors
         - repo: copr:copr.fedorainfracloud.org:peterwu:rendezvous
@@ -118,7 +121,6 @@ modules:
       - maplemono.nu
       - gitbutler.nu
       - feishin.nu
-      - nautilus-open-any-terminal.sh
 
   - type: systemd
     system:
