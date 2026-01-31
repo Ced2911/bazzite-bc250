@@ -24,6 +24,7 @@ modules:
         - atim/starship
         - pgdev/ghostty
         - peterwu/rendezvous
+        - ublue-os/packages
       files:
         - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
         - https://mise.jdx.dev/rpm/mise.repo
@@ -67,6 +68,8 @@ modules:
         # gnome
         - gnome-shell-extension-blur-my-shell
         - gnome-tweaks
+
+        - bazaar
 
         # cursors
         - repo: copr:copr.fedorainfracloud.org:peterwu:rendezvous
