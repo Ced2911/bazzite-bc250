@@ -1,0 +1,25 @@
+modules:
+  - type: dnf
+    install:
+      packages:
+        - gnome-shell-extension-blur-my-shell
+        - gnome-tweaks
+
+  - type: gnome-extensions
+    install:
+      - Vitals # https://extensions.gnome.org/extension/1460/vitals/
+      - GSConnect # https://extensions.gnome.org/extension/1319/gsconnect/
+      - Burn My Windows # https://extensions.gnome.org/extension/4679/burn-my-windows/
+      - PaperWM # https://extensions.gnome.org/extension/6099/paperwm/
+      - Gnome 4x UI Improvements # https://extensions.gnome.org/extension/4158/gnome-40-ui-improvements/
+      - Open Bar # https://extensions.gnome.org/extension/6580/open-bar/
+      - 1462 # https://extensions.gnome.org/extension/1462/panel-date-format/
+      - User Themes # https://extensions.gnome.org/extension/19/user-themes/
+
+  - type: gschema-overrides
+    include:
+      - zz1-linuxyz.gschema.override
+
+  - type: bling
+    install:
+      - dconf-update-service

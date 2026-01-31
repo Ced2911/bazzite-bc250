@@ -2,18 +2,15 @@
 # ^^^ Above line sets up validation in supported editors ^^^
 
 # image will be published to ghcr.io/<user>/<name>
-name: linuxyz-laptop
+name: linuxyz-zirc
 # description will be included in the image's metadata
 description: My personal custom image. Make your own! https://blue-build.org/
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/silverblue-main
+base-image: ghcr.io/zirconium-dev/zirconium
 image-version: latest # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
 modules:
-  - from-file: common.yml
-  # - type: gnome-extensions
-  #   install:
-  #     - Smart Auto Move # https://extensions.gnome.org/extension/4736/smart-auto-move/
+  - from-file: config/common.yml

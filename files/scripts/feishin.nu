@@ -18,21 +18,21 @@ Exec=/usr/bin/feishin --enable-features=UseOzonePlatform,WaylandWindowDecoration
 TryExec=/usr/bin/feishin
 Terminal=false
 Type=Application
-Icon=org.jeffvli.feishin
+Icon=/usr/share/feishin/resources/assets/icons/512x512.png
 StartupWMClass=feishin
 SingleMainWindow=true
 Categories=AudioVideo;Audio;Player;Music;
 Keywords=Navidrome;Jellyfin;Subsonic;OpenSubsonic
 Comment=A player for your self-hosted music server" | save "/usr/share/applications/feishin.desktop"
 
-cp /usr/share/feishin/resources/assets/icons/512x512.png /usr/share/icons/hicolor/512x512/apps/org.jeffvli.feishin.png
+# cp /usr/share/feishin/resources/assets/icons/512x512.png /usr/share/icons/hicolor/512x512/apps/org.jeffvli.feishin.png
 
-cp /usr/share/feishin/resources/assets/icons/256x256.png /usr/share/icons/hicolor/256x256/apps/org.jeffvli.feishin.png
+# cp /usr/share/feishin/resources/assets/icons/256x256.png /usr/share/icons/hicolor/256x256/apps/org.jeffvli.feishin.png
 
-cp /usr/share/feishin/resources/assets/icons/128x128.png /usr/share/icons/hicolor/128x128/apps/org.jeffvli.feishin.png
+# cp /usr/share/feishin/resources/assets/icons/128x128.png /usr/share/icons/hicolor/128x128/apps/org.jeffvli.feishin.png
 
-cp /usr/share/feishin/resources/assets/icons/64x64.png /usr/share/icons/hicolor/64x64/apps/org.jeffvli.feishin.png
+# cp /usr/share/feishin/resources/assets/icons/64x64.png /usr/share/icons/hicolor/64x64/apps/org.jeffvli.feishin.png
 
-cp /usr/share/feishin/resources/assets/icons/32x32.png /usr/share/icons/hicolor/32x32/apps/org.jeffvli.feishin.png
+# cp /usr/share/feishin/resources/assets/icons/32x32.png /usr/share/icons/hicolor/32x32/apps/org.jeffvli.feishin.png
 
-sudo gtk-update-icon-cache -f -t /usr/share/icons
+# sudo gtk-update-icon-cache -f -t /usr/share/icons
