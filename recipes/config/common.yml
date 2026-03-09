@@ -55,7 +55,6 @@ modules:
         # misc bg
         - python
         - rsync
-        - syncthing
         - tailscale
 
         - bazaar
@@ -114,6 +113,7 @@ modules:
           - re.sonny.Junction
           - page.tesk.Refine
           - dev.deedles.Trayscale
+          - com.github.zocker_160.SyncThingy
 
   - type: script
     scripts:
@@ -129,9 +129,6 @@ modules:
       masked:
         # needed for realtime on gnome 45+ according to yabridge readme
         - rtkit-daemon.service
-    user:
-      enabled:
-        - syncthing.service
 
   - type: fonts
     fonts:
