@@ -17,7 +17,6 @@ modules:
       cleanup: false
       copr:
         - atim/starship
-        - peterwu/rendezvous
         - ublue-os/packages
         - monkeygold/nautilus-open-any-terminal
       files:
@@ -60,11 +59,6 @@ modules:
         - bazaar
 
         - nautilus-open-any-terminal
-
-        # cursors
-        - repo: copr:copr.fedorainfracloud.org:peterwu:rendezvous
-          packages:
-            - bibata-cursor-themes
     group-install:
       packages:
         - virtualization
@@ -120,6 +114,7 @@ modules:
       - maplemono.nu
       - gitbutler.nu
       - feishin.nu
+      - bibata.nu
 
   - type: systemd
     system:
