@@ -7,13 +7,10 @@ name: linuxyz-zirc-nvidia
 description: My personal custom image. Make your own! https://blue-build.org/
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/zirconium-dev/zirconium
+base-image: ghcr.io/zirconium-dev/zirconium-nvidia
 image-version: latest # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
 modules:
-  - type: akmods
-    nvidia-driver: nvidia-open
-    install: []
   - from-file: config/common.yml
