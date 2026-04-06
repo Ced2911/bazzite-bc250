@@ -108,13 +108,14 @@ modules:
           - page.tesk.Refine
           - dev.deedles.Trayscale
           - com.github.zocker_160.SyncThingy
+          - org.jeffvli.feishin
 
   - type: script
     scripts:
       - maplemono.nu
       - gitbutler.nu
-      - feishin.nu
       - bibata.nu
+      # - feishin.nu
 
   - type: systemd
     system:
