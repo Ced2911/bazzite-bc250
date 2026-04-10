@@ -47,6 +47,7 @@ modules:
         - gcc
         - libgit2
         - nmap
+        - android-tools
 
         # realtime
         - realtime-setup
