@@ -52,10 +52,12 @@ modules:
         # realtime
         - realtime-setup
 
-        # misc bg
+        # misc
         - python
         - rsync
+        - rclone
         - tailscale
+        - ffmpeg
 
         - bazaar
 
