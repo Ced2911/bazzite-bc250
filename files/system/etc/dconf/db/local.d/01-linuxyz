@@ -1,7 +1,0 @@
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
-command='foot'
-name='terminal'
-binding='<Alt>Return'
-
-[org/gnome/shell/extensions/panel-date-format]
-format='A %B %A (%F) at %R'

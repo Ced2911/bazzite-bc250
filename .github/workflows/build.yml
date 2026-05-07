@@ -23,12 +23,7 @@ jobs:
       matrix:
         recipe:
           # !! Add your recipes here
-          - recipe-gnome.yml
-          - recipe-gnome-nvidia.yml
-          - recipe-zirc.yml
-          - recipe-zirc-nvidia.yml
           - recipe-bazzite-wifi.yml
-          - recipe-eserv.yml
     steps:
       # the build is fully handled by the reusable github action
       - name: Build Custom Image
