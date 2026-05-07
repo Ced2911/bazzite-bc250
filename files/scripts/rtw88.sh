@@ -17,3 +17,4 @@ sed -i "/^KVER ?= /s/.*/KVER := $KERNELRELEASE/" Makefile
 make
 make install
 make install_fw
+cp rtw88.conf /etc/modprobe.d/
